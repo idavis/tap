@@ -1,0 +1,17 @@
+# These files are text and should be normalized (convert crlf => lf)
+*.cs      text
+*.rb      text
+*.xaml    text
+*.csproj  text
+*.sln     text
+*.tt      text
+*.ps1     text
+*.cmd     text
+*.msbuild text
+*.md      text
+*.txt     text
+
+# Images should be treated as binary
+# (binary is a macro for -text -diff)
+*.png     binary
+*.jepg    binary
